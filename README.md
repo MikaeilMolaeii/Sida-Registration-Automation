@@ -23,6 +23,8 @@ pip install -r requirements.txt
 
 Open `data/students.xlsx`, replace the fictional sample rows with your own data, then double-click `Run_SIDA_Bot.cmd`. The workbook's `راهنمای ورود` sheet lists the allowed education and job values and the fields that need extra care. The launcher opens a dedicated Chrome profile when needed and asks you to sign in. For each record, enter the CAPTCHA and click Search; the bot completes the remaining workflow.
 
+When Chrome opens, sign in to SIDA and press Enter in the launcher window to start the bot. The bot opens the preregistration workflow, prepares each record, and waits for you to enter the CAPTCHA and click Search.
+
 The included workbook contains fictional records. Do not publish a completed workbook containing real data.
 
 The bot writes status, selected grade, last error, and last attempt time to the source workbook. The JSON recovery journal and logs are kept local and excluded from Git.

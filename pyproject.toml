@@ -1,0 +1,10 @@
+[project]
+name = "sida-automation"
+version = "0.1.0"
+description = "Human-in-the-loop SIDA student registration automation"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
